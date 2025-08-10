@@ -4,9 +4,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Read secrets from environment variables (Railway Variables)
-API_TOKEN = os.environ.get("8104540738:AAF2-c1MidpeulwhqP4-63y9OqYYLf_-v0Q")           # Telegram Bot Token from BotFather
-STREAMTAPE_USER = os.environ.get("dadfda8ad99b4581e0a4")  # Streamtape Username
-STREAMTAPE_KEY = os.environ.get("DWLM618ey0ckpzK")    # Streamtape API Key
+API_TOKEN = 8104540738:AAF2-c1MidpeulwhqP4-63y9OqYYLf_-v0Q          # Telegram Bot Token from BotFather
+STREAMTAPE_USER = dadfda8ad99b4581e0a4  # Streamtape Username
+STREAMTAPE_KEY = DWLM618ey0ckpzK    # Streamtape API Key
 
 # =========================
 # Start Command
